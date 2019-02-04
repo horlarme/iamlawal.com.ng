@@ -4,7 +4,7 @@
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="description" content="Lawal Oladipupo Olawunmi">
+    <meta name="description" content="My name is Lawal Oladipupo Olawunmi, and I am a web developer from Nigeria. Love technology and its parents...">
     <meta name="keywords" content="web developer, web developer nigeria, nigeria, lawal, oladipupo, lawal oladipupo,
     blessedhorlar, firstlawal, php developer nigeria, laravel developer, laravel nigeri">
     <meta name="author" content="templatemo">
@@ -33,34 +33,33 @@
         <span class="spinner-rotate"></span>
     </div>
 </div>
-<!-- Navigation Section -->
+    <!-- Navigation Section -->
 
-<div class="navbar navbar-fixed-top custom-navbar" role="navigation">
-    <div class="container">
+    <div class="navbar navbar-fixed-top custom-navbar" role="navigation">
+        <div class="container">
 
-        <!-- navbar header -->
-        <div class="navbar-header">
-            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon icon-bar"></span>
-                <span class="icon icon-bar"></span>
-                <span class="icon icon-bar"></span>
-            </button>
-            <a href="#" class="navbar-brand">Stimulus</a>
+            <!-- navbar header -->
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">{{env('APP_NAME')}}</a>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home" class="smoothScroll">Home</a></li>
+                    <li><a href="#about" class="smoothScroll">About Me</a></li>
+                    <li><a href="#experience" class="smoothScroll">Experiences</a></li>
+                    <li><a href="#quotes" class="smoothScroll">Testimonial</a></li>
+                    <li><a href="#contact" class="smoothScroll">Contact</a></li>
+                </ul>
+            </div>
+
         </div>
-
-        <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#home" class="smoothScroll">Home</a></li>
-                <li><a href="#about" class="smoothScroll">About Me</a></li>
-                <li><a href="#experience" class="smoothScroll">Experiences</a></li>
-                <li><a href="#quotes" class="smoothScroll">Testimonial</a></li>
-                <li><a href="#contact" class="smoothScroll">Contact</a></li>
-            </ul>
-        </div>
-
     </div>
-</div>
-
 
 @yield('content')
 

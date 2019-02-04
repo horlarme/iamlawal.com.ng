@@ -5,35 +5,6 @@
 
 @section('content')
 
-    <!-- Navigation Section -->
-
-    <div class="navbar navbar-fixed-top custom-navbar" role="navigation">
-        <div class="container">
-
-            <!-- navbar header -->
-            <div class="navbar-header">
-                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon icon-bar"></span>
-                    <span class="icon icon-bar"></span>
-                    <span class="icon icon-bar"></span>
-                </button>
-                <a href="#" class="navbar-brand">Stimulus</a>
-            </div>
-
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home" class="smoothScroll">Home</a></li>
-                    <li><a href="#about" class="smoothScroll">About Me</a></li>
-                    <li><a href="#experience" class="smoothScroll">Experiences</a></li>
-                    <li><a href="#quotes" class="smoothScroll">Testimonial</a></li>
-                    <li><a href="#contact" class="smoothScroll">Contact</a></li>
-                </ul>
-            </div>
-
-        </div>
-    </div>
-
-
     <!-- Home Section -->
 
     <section id="home" class="parallax-section">
@@ -48,8 +19,8 @@
                     <div class="home-thumb">
                         <div class="section-title">
                             <h4 class="wow fadeInUp" data-wow-delay="0.3s">welcome to my website</h4>
-                            <h1 class="wow fadeInUp" data-wow-delay="0.6s">Hello, I am <strong>Stimulus</strong>
-                                currently based in New York city.</h1>
+                            <h1 class="wow fadeInUp" data-wow-delay="0.6s">Hello, I am <strong>{{env('APP_NAME')}}</strong>
+                                currently based in Lagos city in Nigeria.</h1>
                             <p class="wow fadeInUp" data-wow-delay="0.9s">Donec auctor arcu at efficitur lacinia.
                                 Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus.
                                 Vestibulum non pellentesque felis, sed dignissim urna. Vestibulum id accumsan quam.</p>
