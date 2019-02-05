@@ -15,10 +15,10 @@
     Stimulus Template
     http://www.templatemo.com/tm-498-stimulus
     -->
-    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/animate.css')}}">
-    <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/templatemo-style.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/animate.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/font-awesome.min.css')}}">
+    <link rel="stylesheet" href="{{secure_asset('css/templatemo-style.css')}}">
 
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
 
@@ -90,12 +90,12 @@
 
 <!-- SCRIPTS -->
 
-<script src="{{asset('js/jquery.js')}}"></script>
-<script src="{{asset('js/bootstrap.min.js')}}"></script>
-<script src="{{asset('js/jquery.parallax.js')}}"></script>
-<script src="{{asset('js/smoothscroll.js')}}"></script>
-<script src="{{asset('js/wow.min.js')}}"></script>
-<script src="{{asset('js/custom.js')}}"></script>
+<script src="{{secure_asset('js/jquery.js')}}"></script>
+<script src="{{secure_asset('js/bootstrap.min.js')}}"></script>
+<script src="{{secure_asset('js/jquery.parallax.js')}}"></script>
+<script src="{{secure_asset('js/smoothscroll.js')}}"></script>
+<script src="{{secure_asset('js/wow.min.js')}}"></script>
+<script src="{{secure_asset('js/custom.js')}}"></script>
 
 </body>
 </html>
