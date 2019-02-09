@@ -18,7 +18,7 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="home-thumb">
                         <div class="section-title">
-                            <h4 class="wow fadeInUp" data-wow-delay="0.3s">welcome to my website</h4>
+                            <h4 class="wow fadeInUp color-white" data-wow-delay="0.3s">welcome to my website</h4>
                             <h1 class="wow fadeInUp" data-wow-delay="0.6s">Hello, I am <strong>{{env('APP_NAME')}}</strong>
                                 currently based in Lagos city in Nigeria.</h1>
                             <p class="wow fadeInUp" data-wow-delay="0.9s">Donec auctor arcu at efficitur lacinia.
@@ -40,7 +40,7 @@
 
     <!-- About Section -->
 
-    <section id="about" class="parallax-section">
+    <section id="about" class="bg-yellow parallax-section">
         <div class="container">
             <div class="row">
 

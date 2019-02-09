@@ -70,7 +70,7 @@ strong {
 }
 
 p {
-    color: #888;
+    color: #f4efde;
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
@@ -144,7 +144,7 @@ footer {
 
 #experience,
 #education {
-  background: #E9724C;
+  background: #2c547c;
 }
 
 .background-image {
@@ -161,7 +161,7 @@ footer {
 }
 
 .color-white {
-  color: #ffffff;
+  color: #f4efde;
 }
 
 .color-yellow {
@@ -169,15 +169,15 @@ footer {
 }
 
 .bg-yellow {
-  background: #E3AE57;
+  background: #2c547c;
 }
 
 .bg-white {
-  background: #ffffff;
+  background: #9cc4dc;
 }
 
 .bg-dark {
-  background: #161616;
+  background: #448cbb;
 }
 
 
@@ -297,7 +297,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #E3AE57;
+    color: #f4efde;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -307,7 +307,7 @@ a:hover, a:active, a:focus {
 
 .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #E3AE57;
+    color: #f4efde;
 }
 
 .custom-navbar .navbar-toggle {
@@ -331,7 +331,7 @@ a:hover, a:active, a:focus {
         background: 0 0; 
     }
     .custom-navbar.top-nav-collapse {
-        background: #ffffff;
+        background: #78accb;
         box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
         padding: 0;
     }
@@ -349,7 +349,7 @@ a:hover, a:active, a:focus {
 }
 
 #home .col-md-6 {
-  background: #f1e2d7;
+  background: #448cbb;
 /* light blue color: #c3eafd; */
   padding-right: 0;
   padding-left: 0;
@@ -462,7 +462,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #education {
-  background: #E3AE57;
+  background: #78accb;
 }
 
 #education .education-img {
@@ -493,7 +493,7 @@ a:hover, a:active, a:focus {
     background: url('../images/quotes-bg.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
-    color: #ffffff;
+    color: #f4efde;
     position: relative;
     padding: 100px 0px;
 }
@@ -523,7 +523,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #contact {
-  background: #E9724C;
+  background: #9cc4dc;
 }
 
 #contact .contact-form,

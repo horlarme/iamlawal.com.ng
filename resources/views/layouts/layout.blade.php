@@ -65,7 +65,7 @@
 
 <!-- Footer Section -->
 
-<footer>
+<footer class="bg-dark">
     <div class="container">
         <div class="row">
 
