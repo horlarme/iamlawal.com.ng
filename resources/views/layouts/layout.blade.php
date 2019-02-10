@@ -71,16 +71,15 @@
 
             <div class="col-md-12 col-sm-12">
                 <div class="wow fadeInUp footer-copyright" data-wow-delay="1.8s">
-                    <p>Copyright &copy; 2016 Your Company
+                    <p>Copyright &copy; {{date('Y')}} Lawal Oladipupo
 
                         | Design: <a href="http://www.google.com/+templatemo" target="_parent">templatemo</a></p>
                 </div>
                 <ul class="wow fadeInUp social-icon" data-wow-delay="2s">
-                    <li><a href="#" class="fa fa-facebook"></a></li>
-                    <li><a href="#" class="fa fa-twitter"></a></li>
-                    <li><a href="#" class="fa fa-google-plus"></a></li>
-                    <li><a href="#" class="fa fa-dribbble"></a></li>
-                    <li><a href="#" class="fa fa-linkedin"></a></li>
+                    <li><a href="//facebook.com/blessedhorlar" class="fa fa-facebook"></a></li>
+                    <li><a href="//twitter.com/@firstlawal" class="fa fa-twitter"></a></li>
+                    <li><a href="//www.linkedin.com/in/lawal-oladipupo-ba9525b0" class="fa fa-linkedin"></a></li>
+                    <li><a href="//visualcv.com/i_am_lawal/pdf" class="fa fa-files-o"></a></li>
                 </ul>
             </div>
 

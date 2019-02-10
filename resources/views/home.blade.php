@@ -67,28 +67,28 @@
                     <div class="skill-thumb">
                         <div class="wow fadeInUp section-title color-white" data-wow-delay="1.2s">
                             <h1>My Skills</h1>
-                            <p class="color-white">Photoshop . HTML CSS JS . Web Design</p>
+                            <p class="color-white">HTML CSS PHP JS ANDROID</p>
                         </div>
 
                         <div class=" wow fadeInUp skills-thumb" data-wow-delay="1.6s">
-                            <strong>Frontend Design</strong>
+                            <strong>LARAVEL</strong>
                             <span class="color-white pull-right">90%</span>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90"
-                                     aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                                     aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
                             </div>
 
-                            <strong>Backend processing</strong>
+                            <strong>VUEJS</strong>
                             <span class="color-white pull-right">70%</span>
                             <div class="progress">
                                 <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="70"
                                      aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
                             </div>
 
-                            <strong>HTML5 & CSS3</strong>
-                            <span class="color-white pull-right">80%</span>
+                            <strong>Android (JAVA)</strong>
+                            <span class="color-white pull-right">50%</span>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80"
+                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="50"
                                      aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
                             </div>
                         </div>
@@ -235,6 +235,45 @@
                             </div>
                         </div>
 
+                        <div class="wow fadeInUp color-white media" data-wow-delay="1.6s">
+                            <div class="media-object media-left">
+                                <i class="fa fa-laptop"></i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Bachelor of Arts
+                                    <small>2008 May - 2011 Dec</small>
+                                </h3>
+                                <p class="color-white">Orci varius natoque penatibus et magnis dis parturient montes,
+                                    nascetur ridiculus mus.</p>
+                            </div>
+                        </div>
+
+                        <div class="wow fadeInUp color-white media" data-wow-delay="1.6s">
+                            <div class="media-object media-left">
+                                <i class="fa fa-laptop"></i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Bachelor of Arts
+                                    <small>2008 May - 2011 Dec</small>
+                                </h3>
+                                <p class="color-white">Orci varius natoque penatibus et magnis dis parturient montes,
+                                    nascetur ridiculus mus.</p>
+                            </div>
+                        </div>
+
+                        <div class="wow fadeInUp color-white media" data-wow-delay="1.6s">
+                            <div class="media-object media-left">
+                                <i class="fa fa-laptop"></i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Bachelor of Arts
+                                    <small>2008 May - 2011 Dec</small>
+                                </h3>
+                                <p class="color-white">Orci varius natoque penatibus et magnis dis parturient montes,
+                                    nascetur ridiculus mus.</p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
 
@@ -277,8 +316,8 @@
                     <div class="contact-form">
                         <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
                             <h1 class="color-white">Say hello..</h1>
-                            <p class="color-white">Integer ut consectetur est. In cursus orci non ipsum gravida
-                                dignissim.</p>
+                            <p class="color-white">Write me something nice and I promise to respond as soon as I get it.
+                            </p>
                         </div>
 
                         <div id="contact-form">
@@ -311,16 +350,18 @@
                 <div class="bg-dark col-md-3 col-sm-6">
                     <div class="contact-thumb">
                         <div class="wow fadeInUp contact-info" data-wow-delay="0.6s">
-                            <h3 class="color-white">Visit my office</h3>
-                            <p>456 New Street 22000, New York City, USA</p>
+                            {{--<h3 class="color-white">Visit my office</h3>--}}
+                            {{--<p>456 New Street 22000, New York City, USA</p>--}}
                         </div>
 
                         <div class="wow fadeInUp contact-info" data-wow-delay="0.8s">
                             <h3 class="color-white">Contact.</h3>
-                            <p><i class="fa fa-phone"></i> 01-0110-0220</p>
-                            <p><i class="fa fa-envelope-o"></i> <a href="mailto:hello@company.co">hello@company.co</a>
+                            <p><i class="fa fa-phone"></i> +234 (0)81 4910 8989</p>
+                            <p><i class="fa fa-phone"></i> +234 (0)90 7968 2422</p>
+                            <p><i class="fa fa-envelope-o"></i> <a
+                                        href="mailto:lawaloladipupo@outlook.com">lawaloladipupo@outlook.com</a>
                             </p>
-                            <p><i class="fa fa-globe"></i> <a href="#">company.co</a></p>
+                            <p><i class="fa fa-globe"></i> <a href="{{url("")}}">www.iamlawal.com.ng</a></p>
                         </div>
 
                     </div>
