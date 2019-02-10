@@ -34,6 +34,7 @@
 
     <!-- Google Site Console -->
     <meta name="google-site-verification" content="ATJVM_-pikXisRyuLlUn6k-j9UCBYtuba51IEslK0h0" />
+
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
