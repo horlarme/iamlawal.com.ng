@@ -22,7 +22,6 @@
 
     <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
 
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90904178-2"></script>
     <script>
@@ -33,6 +32,8 @@
         gtag('config', 'UA-90904178-2');
     </script>
 
+    <!-- Google Site Console -->
+    <meta name="google-site-verification" content="ATJVM_-pikXisRyuLlUn6k-j9UCBYtuba51IEslK0h0" />
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
